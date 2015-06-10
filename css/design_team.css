@@ -1,0 +1,109 @@
+body {
+    background: #00B3E9;
+}
+
+section {
+    padding: 0 !important;
+}
+
+.cover {
+    position: absolute;
+    top: -100%;
+    left: -50%;
+    width:4000px;
+    height:8000px;
+    background: #57d0b5; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #57d0b5 0%, #00b3e9 30%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#57d0b5), color-stop(30%,#00b3e9)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg,  #57d0b5 0%,#00b3e9 30%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg,  #57d0b5 0%,#00b3e9 30%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg,  #57d0b5 0%,#00b3e9 30%); /* IE10+ */
+    background: linear-gradient(135deg,  #57d0b5 0%,#00b3e9 30%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57d0b5', endColorstr='#00b3e9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    opacity: 0.75;
+    z-index: -1;
+}
+
+section img {
+    margin: 0 !important;
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.img_container {
+    width: 100%;
+    height: 100%;
+    background: deeppink;
+    overflow: hidden;
+}
+
+.scroller_contact {
+    -webkit-animation: scroller_contact 8s ease-in-out 1.5s infinite alternate;
+    -moz-animation: scroller_contact 8s ease-in-out 1.5s infinite alternate;
+    -o-animation: scroller_contact 8s ease-in-out 1.5s infinite alternate;
+    animation: scroller_contact 8s ease-in-out 1.5s infinite alternate;
+}
+.scroller_directors {
+    -webkit-animation: scroller_directors 4s ease-in-out 1.5s infinite alternate;
+    -moz-animation: scroller_directors 4s ease-in-out 1.5s infinite alternate;
+    -o-animation: scroller_directors 4s ease-in-out 1.5s infinite alternate;
+    animation: scroller_directors 4s ease-in-out 1.5s infinite alternate;
+}
+.scroller_news {
+    -webkit-animation: scroller_news 10s ease-in-out 1.5s infinite alternate;
+    -moz-animation: scroller_news 10s ease-in-out 1.5s infinite alternate;
+    -o-animation: scroller_news 10s ease-in-out 1.5s infinite alternate;
+    animation: scroller_news 10s ease-in-out 1.5s infinite alternate;
+}
+
+.opener h4 {
+    margin-top: 40%;
+    z-index: 10;
+    position: relative;
+    color: rgba(255,255,255,0.4) !important;
+}
+
+h5 {
+    text-decoration: none;
+    text-transform: none !important;
+}
+
+.border {
+    -webkit-text-stroke: 2px black;
+}
+
+#outlines {
+    display: none;
+}
+
+.spacer {
+    margin-top: 80px !important;
+}
+
+.shadow {
+    text-shadow: 0px 0px 20px rgba(150, 150, 150, 1);
+}
+
+#animation_container {
+    position: absolute;
+    margin-top: 23%;
+    width: 100%;
+    padding: 0;
+    z-index: 1;
+}
+
+#animation_container path {
+    width: 100%;
+}
+
+
+@-webkit-keyframes scroller_contact { from { margin-top:0%; } to { margin-top:-90%; }  }
+   @-moz-keyframes scroller_contact { from { margin-top:0%; } to { margin-top:-90%; }  }
+     @-o-keyframes scroller_contact { from { margin-top:0%; } to { margin-top:-90%; }  }
+        @keyframes scroller_contact { from { margin-top:0%; } to { margin-top:-90%; }  }
+
+@-webkit-keyframes scroller_directors { from { margin-top:0%; } to { margin-top:-20%; }  }
+   @-moz-keyframes scroller_directors { from { margin-top:0%; } to { margin-top:-20%; }  }
+     @-o-keyframes scroller_directors { from { margin-top:0%; } to { margin-top:-20%; }  }
+        @keyframes scroller_directors { from { margin-top:0%; } to { margin-top:-20%; }  }
